@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head> 
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Gelre Airport Check-in </title>
+</head>
+
+<body class="Altpage">
+    <header>
+         <nav class="navigation">
+            <ul>
+            <li><a href="Startpagina.html">Home</a></li>
+            <li><a href="CheckIn.html">Check in</a></li>
+            <li><a href="Passengers.html">Passengers</a></li>
+            <li><a href="LogIn.html">Log in</a></li>
+            <li><a href="Privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Leftbar">
+        <h2 class="Addtitle">
+            Sort by
+        </h2>
+        <p> </p>
+        <ul class="Personalinfo">
+            <li> 
+                <button class="button" type="Submit">Depart time</button>
+            </li>
+            <li> 
+                <p></p>
+            </li>
+            <li>
+                <button class="button" type="Submit">Airway</button>
+            </li>
+        </ul>
+    </div>
+    <main> 
+        <div class="Centerempty">
+            <h2 class="Emptytitle">Upcoming flights</h2>
+            <p> </p>
+            <input type="text" id="Flightsearch" class="Addlabel" placeholder="Search for flights..">
+            <button class="button" type="Submit">Search</button>
+            <p class="Flightinfo"> 
+                KH 666 -> Oslo (OSL) - 23-12-23 16:40 GATE A
+            </p>
+            <p class="Flightinfo">
+                KH 412 -> Oslo (OSL) - 24-12-23 15:20 GATE B  
+            </p>
+            <p class="Flightinfo">
+                KH 092 -> Denmark (DMK) - 24-12-23 18:00 GATE A 
+            </p>
+            <p class="Flightinfo">
+                RSA 090 -> Russia (RSS) - 25-12-23 19:00 GATE B
+            </p>
+            <p class="Flightinfo">
+                KH 123 -> Russia (RSS) - 28-12-23 06:00 GATE C
+            </p>
+        </div>
+    </main>
+    <div class="Rightbar">
+        <h3 class="Addtitle"> 
+            Add flight
+        </h3>
+        <ul class="Addform">
+            <li>
+                <label class="Addlabel" for="Departt">Depart date/time:</label>
+                <input type="text" id="Departt" placeholder="00-00-00 00:00:00" required>
+              </li>
+              <li>
+                <label class="Addlabel" for="Airway">Airway:</label>
+                <input type="text" id="Airway" required>
+              </li>
+              <li>
+                <label class="Addlabel" for="Gate">Gate:</label>
+                <input type="text" id="Gate" required>
+              </li>
+              <li>
+                <label class="Addlabel" for="MW">Max weight:</label>
+                <input type="text" id="MW" required>
+              </li>
+                <li class="buttoncontainer">
+                  <button class="button" type="Submit">Add flight</button>
+                </li>
+        </ul>
+    </div>
+    <footer>
+        <p>© Gelre Airport, 2023</p>
+    </footer>
+</body>
+
+</html>

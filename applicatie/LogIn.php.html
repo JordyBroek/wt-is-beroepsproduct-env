@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head> 
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Gelre Airport Check-in </title>
+</head>
+
+<body class="Altpage">
+    <header>
+         <nav class="navigation">
+            <ul>
+            <li><a href="Startpagina.html">Home</a></li>
+            <li><a href="CheckIn.html">Check in</a></li>
+            <li><a href="Passengers.html">Passengers</a></li>
+            <li><a href="Flights.html">Flights</a></li>
+            <li><a href="Privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="Centerbar"> 
+        <form>
+            <h2 class="Checktitle">
+                Log in
+            </h2>
+            <ul class="Checkform">
+                <li>
+                  <label class="Checklabel" for="Usern">Username:</label>
+                  <input type="text" id="Usern" required>
+                </li>
+                <li>
+                  <label class="Checklabel" for="Passw">Password:</label>
+                  <input type="text" id="Passw" required>
+                </li>
+                <li>
+                  <label class="Checklabel" for="Atype">Account type:</label>
+                  <select id="Atype">
+                    <option value="passenger">Passenger</option>
+                    <option value="employee">Employee</option>
+                  </select>
+                </li>
+                <li class="buttoncontainer">
+                  <button class="button" type="Submit"> Log in</button>
+                </li>
+              </ul>
+        </form>
+
+    </main>
+    <footer>
+        <p>© Gelre Airport, 2023</p>
+    </footer>
+</body>
+
+</html>
